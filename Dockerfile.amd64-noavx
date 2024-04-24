@@ -18,5 +18,5 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 # Install Tensorflow NOAVX and Deps
 RUN python3 -m pip install --no-cache-dir --break-system-packages \
-    https://github.com/snowzach/tensorflow-multiarch/releases/download/v2.14.0/tensorflow-2.14.0-cp311-cp311-linux_x86_64.whl
+    https://github.com/snowzach/tensorflow-multiarch/releases/download/v2.16.1/tensorflow-2.16.1-cp311-cp311-linux_x86_64.whl
 

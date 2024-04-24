@@ -12,8 +12,8 @@ apt-get update && apt-get install -y --no-install-recommends \
     libc6-dev libstdc++6 libusb-1.0-0 patchelf llvm-16 clang-16
 
 export PROTOC_VERSION="3.20.3"
-export BAZEL_VERSION="6.1.0"
-export TF_VERSION="v2.14.0"
+export BAZEL_VERSION="6.5.0"
+export TF_VERSION="v2.16.1"
 export TF_PYTHON_VERSION=3.11
 
 # Install protoc
